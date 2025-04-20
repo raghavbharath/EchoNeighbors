@@ -24,9 +24,12 @@ Software Used: C++, FastAPI Backend, JavaScript, PlatformIO
 ## Problem Statement
 
 <ul> 
- <li> Home intrusions remain a major concern in residential security, with an estimated 2.5 million burglaries occurring annually in the United States, according to FBI crime reports
+<li> Home intrusions remain a major concern in residential security, with an estimated 2.5 million burglaries occurring annually in the United States, according to FBI crime reports
 66% of these are home break-ins, and over 65% of burglaries happen during the day when homeowners are at work or school </li>
+
+ 
 <li> While the average police response time for a home security alarm ranges from 10 to 20 minutes, sometimes too late to prevent theft or catch intruders. </li>
+
 <li> On the other hand, neighbors are typically within seconds of your home</li>
    <ul>
       <li> Studies show that neighborhood watch programs can reduce crime by up to 26% </li> 
@@ -56,7 +59,7 @@ Reminder & Anti-Forgetting Mechanism: After entering the house, there will be a 
 <ul>
     <li><a href="https://youtu.be/NRGQGvXyf9I?si=fxueIcJhqP37jlyk">Security System Circuitry Demo</a></li>
     <li><a href="https://youtube.com/shorts/avhj43t_PJ4?feature=share">In Progress App Demo</a></li>
-  </ul>
+</ul>
 
 
 ## Challenges we ran into
@@ -92,10 +95,11 @@ Security & UX Considerations
 
 
 ## Future improvements
-<ul>
-   <li> One improvement to be made is the design of a notification system that would send alerts even if your neighbors don't have the phone app (similar to Amber Alert or through SMS). This system will utilize a form of satellite communication </li>
-   <li> Another improvement that can be made are alert triggers for if there are gas leaks, fires, open garage doors when the user is away, floods, or any other disasters; for this, we are using KY-026 Flame Sensor Modules, MQ5 Gas Sensors, and SE045 Water Sensors. </li>
-   <li> Last but not least, a real time map feature using React Native Expo Map UI features would be really practical. Using this feature, the user's real time locations can be updated. For instance, if the user was on vacation, using the real time location updates, the GPS would be able to locate 2-3 nearest neighbors and send them alerts. </li>
-</ul>
+
+- One improvement to be made is the design of a notification system that would send alerts even if your neighbors don't have the phone app (similar to Amber Alert or through SMS). This system will utilize a form of satellite communication
+
+- Another improvement that can be made is alert triggers for if there are gas leaks, fires, open garage doors when the user is away, floods, or any other disasters; for this, we are using KY-026 Flame Sensor Modules, MQ5 Gas Sensors, and SE045 Water Sensors.
+
+- Last but not least, a real-time map feature using React Native Expo Map UI features would be practical. Using this feature, the user's real-time locations can be updated. For instance, if the user was on vacation, using the real-time location updates, the GPS would be able to locate 2-3 nearest neighbors and send them alerts. 
 
 
